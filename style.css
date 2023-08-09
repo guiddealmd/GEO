@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Inter&family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Handjet';
+    
+}
+
+.main{
+    
+    border: 3px solid black;
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    /*eixo X*/
+    justify-content: center;
+    /*eixo Y*/
+    align-items: center;
+}
+
+.left{
+
+    width:50vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.left > h1{
+
+    color: #77ffc0;
+}
+
+img{
+    width: 60%;
+}
+
+.right{
+    
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #77ffc0;
+}
+
+.card{
+
+    width:  40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px;
+}
+
+.card > h1{
+    color: #77ffc0;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.textfield{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    border: 2px solid transparent;
+
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff;
+}
+
+input:focus{
+    border-color: #77ffc0;
+}
+
+button{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #514869;
+    color: #000000;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: 800%;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background: #00ff88;
+}
+
+button:hover{
+    background: #2e0357;
+    color: #00ff88;
+    letter-spacing: 8px;
+
+}
